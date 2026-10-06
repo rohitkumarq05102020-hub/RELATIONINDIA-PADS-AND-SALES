@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbfdfb"/>
+      <stop offset="100%" stop-color="#f4f8f5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="800" fill="url(#bgGlow)" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Flying Birds Top Left and Right -->
+  <g fill="#70b386" opacity="0.75">
+    <path d="M 50 130 Q 65 118 80 130 Q 95 118 110 130 Q 95 124 80 130 Q 65 124 50 130 Z" transform="scale(0.8) translate(10, 10)"/>
+    <path d="M 90 70 Q 105 58 120 70 Q 135 58 150 70 Q 135 64 120 70 Q 105 64 90 70 Z" transform="scale(0.6) translate(60, 40)"/>
+    <path d="M 190 40 Q 205 28 220 40 Q 235 28 250 40 Q 235 34 220 40 Q 205 34 190 40 Z" transform="scale(0.6) translate(120, 20)"/>
+    <path d="M 1030 110 Q 1045 98 1060 110 Q 1075 98 1090 110 Q 1075 104 1060 110 Q 1045 104 1030 110 Z" transform="scale(0.7) translate(400, 20)"/>
+    <path d="M 1120 60 Q 1135 48 1150 60 Q 1165 48 1180 60 Q 1165 54 1150 60 Q 1135 54 1120 60 Z" transform="scale(0.7) translate(420, 20)"/>
+  </g>
+
+  <!-- Top Headline -->
+  <text x="600" y="65" text-anchor="middle" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="34" fill="#2d3748" letter-spacing="1">
+    All-day comfort, All-night protection
+  </text>
+
+  <!-- Main Product Brand Title -->
+  <g id="brand-title">
+    <text x="600" y="160" text-anchor="middle" font-family="'Impact', 'Arial Black', sans-serif" font-size="82" letter-spacing="2">
+      <tspan fill="#0a7a3b">RELATION</tspan><tspan fill="#cf0063">-SECURE PADS</tspan>
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="600" y="210" text-anchor="middle" font-family="'Arial', 'Helvetica', sans-serif" font-weight="bold" font-size="28" fill="#1a202c" letter-spacing="1">
+    WITH ANION CHIP (TECHNOLOGY &amp; ULTRA)
+  </text>
+
+  <!-- Left Side: Meadow, Cotton Blossoms, Joyful Silhouette -->
+  <g id="meadow-and-figure">
+    <!-- Meadow Grass & Stems -->
+    <g stroke="#3a8a58" stroke-width="4" stroke-linecap="round">
+      <line x1="30" y1="800" x2="60" y2="650"/>
+      <line x1="70" y1="800" x2="90" y2="620"/>
+      <line x1="120" y1="800" x2="140" y2="600"/>
+      <line x1="170" y1="800" x2="160" y2="630"/>
+      <line x1="220" y1="800" x2="230" y2="590"/>
+      <line x1="270" y1="800" x2="290" y2="620"/>
+      <line x1="330" y1="800" x2="340" y2="610"/>
+      <line x1="390" y1="800" x2="370" y2="640"/>
+      <line x1="440" y1="800" x2="430" y2="600"/>
+      <line x1="500" y1="800" x2="520" y2="650"/>
+      <line x1="560" y1="800" x2="550" y2="700"/>
+    </g>
+
+    <!-- Lush Grass Leaves -->
+    <path d="M 0 800 Q 50 680 90 800 Q 140 670 180 800 Q 230 650 270 800 Q 320 660 360 800 Q 420 670 460 800 Q 510 680 550 800 L 0 800 Z" fill="#52a06b"/>
+    <path d="M 30 800 Q 80 640 120 800 Q 180 630 220 800 Q 270 610 310 800 Q 370 630 410 800 Q 470 640 510 800 L 0 800 Z" fill="#69b882" opacity="0.8"/>
+
+    <!-- Lavender/Cotton Buds on Stems -->
+    <g fill="#9aa0a6">
+      <ellipse cx="50" cy="670" rx="6" ry="12"/>
+      <ellipse cx="50" cy="650" rx="6" ry="12"/>
+      <ellipse cx="50" cy="630" rx="5" ry="10"/>
+      <ellipse cx="90" cy="650" rx="6" ry="12"/>
+      <ellipse cx="90" cy="630" rx="6" ry="12"/>
+      <ellipse cx="90" cy="610" rx="5" ry="10"/>
+      <ellipse cx="140" cy="630" rx="6" ry="12"/>
+      <ellipse cx="140" cy="610" rx="6" ry="12"/>
+      <ellipse cx="140" cy="590" rx="5" ry="10"/>
+      <ellipse cx="230" cy="620" rx="6" ry="12"/>
+      <ellipse cx="230" cy="600" rx="6" ry="12"/>
+      <ellipse cx="230" cy="580" rx="5" ry="10"/>
+      <ellipse cx="340" cy="640" rx="6" ry="12"/>
+      <ellipse cx="340" cy="620" rx="6" ry="12"/>
+      <ellipse cx="430" cy="630" rx="6" ry="12"/>
+      <ellipse cx="430" cy="610" rx="6" ry="12"/>
+      <ellipse cx="430" cy="590" rx="5" ry="10"/>
+      <ellipse cx="520" cy="680" rx="6" ry="12"/>
+      <ellipse cx="520" cy="660" rx="6" ry="12"/>
+    </g>
+
+    <!-- Joyful Woman Illustration -->
+    <!-- Arms Outstretched -->
+    <path d="M 230 490 Q 150 450 80 330 Q 95 325 115 350 Q 165 440 230 480 Z" fill="#f8d7c2" stroke="#1f2937" stroke-width="2"/>
+    <path d="M 260 480 Q 280 410 295 310 Q 315 315 310 340 Q 295 420 280 490 Z" fill="#f8d7c2" stroke="#1f2937" stroke-width="2"/>
+    <!-- Head & Hair -->
+    <path d="M 230 480 Q 220 380 255 375 Q 290 380 280 480 Z" fill="#1f2937"/>
+    <ellipse cx="255" cy="425" rx="24" ry="32" fill="#f8d7c2" stroke="#1f2937" stroke-width="2"/>
+    <!-- Smile & Eyes -->
+    <path d="M 245 425 Q 255 435 265 425" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 242 415 Q 247 412 250 415" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <path d="M 260 415 Q 265 412 268 415" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <!-- Green Bodice -->
+    <path d="M 230 475 Q 255 470 280 475 L 295 570 Q 255 575 220 570 Z" fill="#1e7e48" stroke="#1f2937" stroke-width="2"/>
+    <!-- Flowing Grey Skirt -->
+    <path d="M 220 570 Q 255 575 295 570 Q 360 670 420 730 Q 300 780 180 770 Q 190 680 220 570 Z" fill="#8c9298" stroke="#1f2937" stroke-width="2"/>
+  </g>
+
+  <!-- Center/Right Feature Boxes (Green Badges with Bullet Points) -->
+  <g id="features" transform="translate(600, 245)">
+    <!-- Feature 1: SECURE CENTER -->
+    <rect x="0" y="0" width="150" height="32" rx="4" fill="#07733b"/>
+    <text x="75" y="22" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#ffffff" letter-spacing="0.5">
+      SECURE CENTER
+    </text>
+    <circle cx="10" cy="48" r="4" fill="#07733b"/>
+    <text x="22" y="52" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      To give you extra absorption where you need it most
+    </text>
+
+    <!-- Feature 2: WING -->
+    <rect x="0" y="70" width="85" height="32" rx="4" fill="#07733b"/>
+    <text x="42" y="92" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#ffffff" letter-spacing="0.5">
+      WING
+    </text>
+    <circle cx="10" cy="118" r="4" fill="#07733b"/>
+    <text x="22" y="122" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      To hold the pad securely in place and help prevent side leakage
+    </text>
+
+    <!-- Feature 3: SOFT COVER -->
+    <rect x="0" y="140" width="150" height="32" rx="4" fill="#07733b"/>
+    <text x="75" y="162" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#ffffff" letter-spacing="0.5">
+      SOFT COVER
+    </text>
+    <circle cx="10" cy="188" r="4" fill="#07733b"/>
+    <text x="22" y="192" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      To give you a soft and comfortable skin feel
+    </text>
+
+    <!-- Feature 4: WITH SAP LAYER -->
+    <rect x="0" y="210" width="150" height="32" rx="4" fill="#07733b"/>
+    <text x="75" y="232" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#ffffff" letter-spacing="0.5">
+      WITH SAP LAYER
+    </text>
+    <circle cx="10" cy="258" r="4" fill="#07733b"/>
+    <text x="22" y="262" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      To give you extra absorbency &amp; extra hygiene
+    </text>
+  </g>
+
+  <!-- Anion Strip Scientific Explanation Box (Rounded border callout) -->
+  <g transform="translate(600, 520)">
+    <rect x="0" y="0" width="460" height="120" rx="14" fill="#ffffff" stroke="#7ec79e" stroke-width="2.5" opacity="0.95"/>
+    <text x="16" y="26" font-family="'Arial', sans-serif" font-weight="bold" font-size="12" fill="#1a202c" letter-spacing="0.2">
+      <tspan x="16" dy="0">Anion Strip helps to remove the unpleasant odour and growth of bacteria inside the</tspan>
+      <tspan x="16" dy="17">liners and pads. It gives a feeling of freshness and comfort, protects the skin and woman's</tspan>
+      <tspan x="16" dy="17">reproductive system from intimate ailments caused by bacteria in the pads. The test results</tspan>
+      <tspan x="16" dy="17">confirm that the anion strip in sanitary pads reduces the odour of ammonia to 85% and</tspan>
+      <tspan x="16" dy="17">destroys 99.9% of the bacteria of staphylococcus aureus.</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom-Right Retail Packaging Product Pack -->
+  <g id="retail-pack" transform="translate(650, 655)" filter="url(#cardShadow)">
+    <!-- Packaging box container -->
+    <rect x="0" y="0" width="340" height="135" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="52" rx="6" fill="#4d0e68"/>
+    <rect x="0" y="42" width="340" height="10" fill="#4d0e68"/>
+
+    <!-- Brand printed on pack -->
+    <text x="12" y="32" font-family="'Arial', sans-serif" font-weight="bold" font-size="15" fill="#ffffff">
+      Relation-Secure Pads
+    </text>
+
+    <!-- Icons on top band -->
+    <g transform="translate(190, 8)" fill="#ffffff" font-family="'Arial', sans-serif" font-size="7">
+      <circle cx="8" cy="8" r="7" fill="#692484" stroke="#ffffff" stroke-width="1"/>
+      <text x="20" y="11" font-weight="bold">ANION CHIP</text>
+      <text x="20" y="18">TECHNOLOGY</text>
+
+      <circle cx="8" cy="28" r="7" fill="#692484" stroke="#ffffff" stroke-width="1"/>
+      <text x="20" y="31" font-weight="bold">NEGATIVE</text>
+      <text x="20" y="38">IONS</text>
+    </g>
+
+    <!-- Trust me... tagline & droplets -->
+    <text x="270" y="24" font-family="'Times New Roman', serif" font-style="italic" font-size="11" fill="#fcd34d" font-weight="bold">
+      Trust me....
+    </text>
+    <text x="270" y="36" font-family="'Arial', sans-serif" font-size="9" fill="#ffffff">
+      You are Safe
+    </text>
+
+    <!-- Heavy flow droplets icon -->
+    <g transform="translate(270, 42)" fill="#38bdf8">
+      <circle cx="4" cy="4" r="2.5"/>
+      <circle cx="11" cy="4" r="2.5"/>
+      <circle cx="18" cy="4" r="2.5"/>
+      <circle cx="25" cy="4" r="2.5"/>
+      <circle cx="32" cy="4" r="2.5"/>
+      <text x="0" y="13" font-family="'Arial', sans-serif" font-size="7" fill="#ffffff">For heavy flow</text>
+    </g>
+
+    <!-- Pack size: 6 PCS -->
+    <text x="175" y="86" font-family="'Impact', 'Arial Black', sans-serif" font-size="28" fill="#4d0e68">
+      6 PCS
+    </text>
+    <text x="175" y="100" font-family="'Arial', sans-serif" font-weight="bold" font-size="10" fill="#d946ef">
+      ULTRA Superior Feature
+    </text>
+
+    <!-- Pad illustration with purple anion chip -->
+    <g transform="translate(110, 52)">
+      <path d="M 10 75 Q 35 15 50 20 Q 65 25 50 75 Q 35 85 10 75 Z" fill="#f8fafc" stroke="#d946ef" stroke-width="1.5"/>
+      <path d="M 28 65 Q 40 32 46 35 Q 52 38 42 68 Z" fill="#9333ea" opacity="0.9"/>
+      <!-- Wings -->
+      <path d="M 18 55 Q 0 50 15 35 Q 25 45 22 55 Z" fill="#f1f5f9" stroke="#d946ef" stroke-width="1"/>
+      <path d="M 52 50 Q 70 45 55 30 Q 45 40 48 50 Z" fill="#f1f5f9" stroke="#d946ef" stroke-width="1"/>
+    </g>
+
+    <!-- XL 280mm & Fresh Fragrance Badge -->
+    <g transform="translate(12, 60)">
+      <rect x="0" y="0" width="70" height="28" rx="4" fill="#3b0764"/>
+      <text x="35" y="14" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="12" fill="#ffffff">
+        XL <tspan font-size="8">280mm</tspan>
+      </text>
+      <text x="35" y="24" text-anchor="middle" font-family="'Arial', sans-serif" font-size="7" fill="#e9d5ff">
+        Fresh Fragrance
+      </text>
+    </g>
+
+    <!-- Price and Logo -->
+    <text x="240" y="125" font-family="'Arial Black', sans-serif" font-size="11" fill="#1f2937">
+      MRP-60.49
+    </text>
+    <circle cx="315" cy="120" r="10" fill="#831843" stroke="#f472b6" stroke-width="1.5"/>
+    <text x="315" y="123" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="7" fill="#ffffff">
+      RHC
+    </text>
+  </g>
+
+  <!-- Bottom Tagline -->
+  <text x="600" y="775" text-anchor="middle" font-family="'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="24" fill="#047857" letter-spacing="2">
+    = Flow with confidence =
+  </text>
+</svg>
