@@ -299,19 +299,49 @@ export const CareersPage: React.FC<CareersPageProps> = ({ jobs, onShowToast }) =
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-1">
               Submit Your Job Application
             </h2>
-            <p className="text-xs text-slate-500 mt-1">
-              Complete the form below to apply for positions at RELATION INDIA. Your details are securely submitted to our human resources team.
-            </p>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mt-1">
+              <p className="text-xs text-slate-500">
+                Complete the form below to apply for positions at RELATION INDIA.
+              </p>
+              <div className="inline-flex items-center gap-1.5 text-xs text-teal-700 bg-teal-50 px-2.5 py-1 rounded-md border border-teal-200">
+                <span className="font-semibold">HR Desk:</span>
+                <a href="mailto:rohitkumarq05102020@gmail.com" className="font-mono hover:underline">
+                  rohitkumarq05102020@gmail.com
+                </a>
+              </div>
+            </div>
           </div>
 
           {submittedSuccess && (
-            <div className="p-4 bg-teal-50 border border-teal-200 rounded-xl flex items-start gap-3 text-teal-900 text-xs">
-              <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0 mt-0.5" />
-              <div>
-                <p className="font-bold text-sm">Application Received Successfully!</p>
-                <p className="mt-1">
-                  Thank you for your interest in joining RELATION INDIA. Our recruitment team will review your qualifications and contact shortlisted candidates via phone or email.
-                </p>
+            <div className="p-4 bg-teal-50 border border-teal-200 rounded-xl space-y-3 text-teal-900 text-xs">
+              <div className="flex items-start gap-3">
+                <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0 mt-0.5" />
+                <div>
+                  <p className="font-bold text-sm">Application Received Successfully!</p>
+                  <p className="mt-1">
+                    Your details are recorded in the RELATION INDIA administrative database and directed to <strong className="font-mono">rohitkumarq05102020@gmail.com</strong>.
+                  </p>
+                </div>
+              </div>
+              <div className="pt-2 border-t border-teal-200/80 flex flex-wrap items-center gap-2">
+                <a
+                  href={`mailto:rohitkumarq05102020@gmail.com?subject=${encodeURIComponent(
+                    `Job Application Submission - RELATION INDIA`
+                  )}&body=${encodeURIComponent(
+                    `Dear HR,\n\nI have submitted my application for employment with RELATION INDIA.\n\nThank you.`
+                  )}`}
+                  className="py-1.5 px-3 bg-teal-700 hover:bg-teal-800 text-white font-semibold rounded-lg text-xs transition-colors"
+                >
+                  Send Confirmation Email to rohitkumarq05102020@gmail.com
+                </a>
+                <a
+                  href="https://wa.me/917004223942?text=Hello%20RELATION%20INDIA%2C%20I%20have%20submitted%20my%20job%20application."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-1.5 px-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg text-xs transition-colors"
+                >
+                  Notify via WhatsApp (+91 7004223942)
+                </a>
               </div>
             </div>
           )}

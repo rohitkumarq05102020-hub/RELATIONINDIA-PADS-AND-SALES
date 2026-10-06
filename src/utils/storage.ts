@@ -9,7 +9,7 @@ import {
 import { Product, JobOpening, NewsArticle, Employee, JobApplication, ContactEnquiry } from '../types';
 
 const STORAGE_KEYS = {
-  PRODUCTS: 'relation_india_products_v2',
+  PRODUCTS: 'relation_india_products_v3',
   JOBS: 'relation_india_jobs_v1',
   NEWS: 'relation_india_news_v1',
   EMPLOYEES: 'relation_india_employees_v1',

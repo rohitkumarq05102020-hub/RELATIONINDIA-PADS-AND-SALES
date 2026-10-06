@@ -2,6 +2,7 @@ import React from 'react';
 import { Product, NewsArticle } from '../types';
 import { PageId } from '../components/Header';
 import { ProductCard } from '../components/ProductCard';
+import { MovingProductMarquee } from '../components/MovingProductMarquee';
 import {
   ArrowRight,
   ShieldCheck,
@@ -29,11 +30,21 @@ export const HomePage: React.FC<HomePageProps> = ({
   onViewProduct,
   onRequestSupply,
 }) => {
+  const featuredProduct = products.find((p) => p.id === 'prod-secure-pads') || products[0];
   const featuredProducts = products.filter((p) => p.isFeatured).slice(0, 3);
   const latestNews = news.slice(0, 3);
 
   return (
-    <div className="space-y-20 pb-20">
+    <div className="space-y-16 pb-20">
+      {/* Moving Product Marquee Banner at Top of Home Page */}
+      {featuredProduct && (
+        <MovingProductMarquee
+          product={featuredProduct}
+          onViewProduct={onViewProduct}
+          onRequestSupply={onRequestSupply}
+        />
+      )}
+
       {/* 1. HERO SECTION */}
       <section className="relative bg-slate-900 text-white overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 border-b border-slate-800">
         {/* Subtle background glow */}
@@ -130,9 +141,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <div className="flex items-center justify-center gap-2">
                       <span className="text-xs font-bold text-teal-400">WITH ANION CHIP (TECHNOLOGY & ULTRA)</span>
                     </div>
-                    <h4 className="text-base font-bold text-white">RELATION-SECURE PADS</h4>
+                    <h4 className="text-base font-bold text-white">RELATION-SECURE PADS (XXL 280mm)</h4>
                     <p className="text-xs text-slate-300">
-                      All-day comfort, All-night protection · Flow with confidence · 6 PCS (XL 280mm) · MRP ₹60.49
+                      All-day comfort, All-night protection · Flow with confidence · XXL 280mm · MRP ₹45.00
                     </p>
                   </div>
                 </div>

@@ -1294,6 +1294,10 @@ export const AdminPanelPage: React.FC<AdminPanelPageProps> = ({
                   <label className="font-bold text-slate-900 block">Support Inquiries Email</label>
                   <p className="font-mono text-slate-800 mt-0.5">relationhealthcare@gmail.com</p>
                 </div>
+                <div>
+                  <label className="font-bold text-slate-900 block">Recruitment & Job Applications Email Desk</label>
+                  <p className="font-mono text-emerald-800 font-semibold mt-0.5">rohitkumarq05102020@gmail.com</p>
+                </div>
               </div>
             </div>
           )}

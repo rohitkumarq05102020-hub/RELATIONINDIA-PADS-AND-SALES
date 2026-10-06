@@ -62,7 +62,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 PIN – 828402
               </address>
             </div>
-            <div className="pt-2 border-t border-slate-800/80 space-y-2 text-xs text-slate-400">
+            <div className="pt-2 border-t border-slate-800/80 space-y-2.5 text-xs text-slate-400">
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-teal-400 shrink-0" />
                 <a
@@ -73,8 +73,35 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 </a>
               </div>
               <div className="flex items-center gap-2">
+                <Mail className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                <a
+                  href="mailto:rohitkumarq05102020@gmail.com"
+                  className="hover:text-emerald-300 transition-colors font-mono"
+                  title="Recruitment & Inquiries Desk"
+                >
+                  rohitkumarq05102020@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                <span>Topchanchi, Dhanbad Office Support</span>
+                <a
+                  href="tel:+917004223942"
+                  className="hover:text-teal-300 transition-colors"
+                >
+                  Call: +91 7004223942
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-3.5 h-3.5 text-emerald-400 font-bold shrink-0">WA</span>
+                <a
+                  href="https://wa.me/917004223942?text=Hello%20RELATION%20INDIA%2C%20I%20would%20like%20to%20inquire%20about%20your%20products."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-400 hover:text-emerald-300 font-semibold transition-colors flex items-center gap-1"
+                >
+                  <span>WhatsApp: +91 7004223942</span>
+                  <ArrowUpRight className="w-3 h-3" />
+                </a>
               </div>
             </div>
           </div>

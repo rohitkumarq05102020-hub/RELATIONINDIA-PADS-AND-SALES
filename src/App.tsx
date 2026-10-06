@@ -11,6 +11,7 @@ import { AdminPanelPage } from './pages/AdminPanelPage';
 import { ProductModal } from './components/ProductModal';
 import { SupplyInquiryModal } from './components/SupplyInquiryModal';
 import { Toast } from './components/Toast';
+import { WhatsAppButton } from './components/WhatsAppButton';
 import {
   getStoredProducts,
   saveProducts,
@@ -217,6 +218,9 @@ export default function App() {
         onClose={() => setInquiryProduct(null)}
         onSuccess={(msg) => showToast(msg, 'success')}
       />
+
+      {/* Floating WhatsApp Quick Contact Button */}
+      <WhatsAppButton phoneNumber="917004223942" />
 
       {/* Toast Notification */}
       <Toast

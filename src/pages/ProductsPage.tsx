@@ -115,7 +115,7 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({
                     Inquire For Trade Supply
                   </button>
                   <span className="text-xs text-teal-200 font-mono font-bold">
-                    6 PCS (XL 280mm) · MRP ₹60.49
+                    XXL 280mm · MRP ₹45.00
                   </span>
                 </div>
               </div>

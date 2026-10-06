@@ -3,22 +3,23 @@ import { Product, JobOpening, NewsArticle, Employee, ContactEnquiry, JobApplicat
 export const INITIAL_PRODUCTS: Product[] = [
   {
     id: 'prod-secure-pads',
-    name: 'RELATION-SECURE PADS (WITH ANION CHIP)',
+    name: 'RELATION-SECURE PADS (XXL 280mm)',
     category: 'Personal Hygiene & Sanitary Care',
-    shortDescription: 'All-day comfort, all-night protection. Sanitary pads with Anion Chip Technology, SAP layer, and secure wings.',
-    fullDescription: 'RELATION-SECURE PADS WITH ANION CHIP (TECHNOLOGY & ULTRA) are engineered for all-day comfort and all-night protection. Featuring an advanced Anion Strip, SAP layer, secure absorbent center, and soft cottony cover, designed to help remove unpleasant odour, inhibit bacterial growth, and flow with confidence.',
-    packSize: '6 PCS · XL 280mm · MRP ₹60.49',
+    shortDescription: 'All-day comfort, all-night protection. Sanitary pads with Anion Chip Technology, SAP layer, and secure wings in XXL 280mm format (MRP ₹45).',
+    fullDescription: 'RELATION-SECURE PADS WITH ANION CHIP (TECHNOLOGY & ULTRA) are engineered for all-day comfort and all-night protection in XXL (Double XL) 280mm format. Featuring an advanced Anion Strip, SAP layer, secure absorbent center, and soft cottony cover, designed to help remove unpleasant odour, inhibit bacterial growth, and flow with confidence.',
+    packSize: 'XXL (Double XL) 280mm · MRP ₹45',
     image: '/images/products/relation-secure-pads.svg',
     composition: 'Soft & cottony non-woven cover, Anion Chip strip with negative ions, SAP (Super Absorbent Polymer) core layer, protective wings, ventilated technology back sheet.',
     features: [
+      'FORMAT: XXL (Double XL) 280mm for maximum day & night security',
+      'AFFORDABLE PRICING: MRP ₹45.00 only',
       'SECURE CENTER: Extra absorption where you need it most',
       'WING: Holds pad securely in place & helps prevent side leakage',
-      'SOFT COVER: Soft & comfortable skin feel',
+      'SOFT COVER: Soft & comfortable cottony skin feel',
       'WITH SAP LAYER: Extra absorbency & extra hygiene',
       'ANION CHIP TECHNOLOGY: Reduces ammonia odour to 85% & destroys 99.9% of bacteria (staphylococcus aureus)',
-      'XL 280mm with Fresh Fragrance for heavy flow protection',
-      'Rated for Heavy Flow (5-droplet protection)',
-      'MRP ₹60.49 (Pack of 6 Pieces)'
+      'Fresh Fragrance with Ventilated Breathable Technology',
+      'Rated for Heavy Flow (5-droplet protection)'
     ],
     storageInstructions: 'Store in a clean, cool, and dry place. Keep away from moisture and direct sunlight.',
     isFeatured: true,

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Shield, Lock, User } from 'lucide-react';
+import { Menu, X, Shield, User, MessageCircle } from 'lucide-react';
 
 export type PageId =
   | 'home'
@@ -91,8 +91,19 @@ export const Header: React.FC<HeaderProps> = ({
             })}
           </nav>
 
-          {/* Zone 3: Primary Actions (Employee Login & Admin Panel) */}
+          {/* Zone 3: Primary Actions (WhatsApp, Employee Login & Admin Panel) */}
           <div className="hidden sm:flex items-center gap-2.5">
+            <a
+              href="https://wa.me/917004223942?text=Hello%20RELATION%20INDIA%2C%20I%20would%20like%20to%20inquire%20about%20your%20healthcare%20products."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white transition-colors whitespace-nowrap shadow-sm"
+              title="Chat on WhatsApp: +91 7004223942"
+            >
+              <MessageCircle className="w-3.5 h-3.5 text-emerald-100" />
+              <span>WhatsApp: 7004223942</span>
+            </a>
+
             <button
               onClick={() => handleNavClick('employee-login')}
               className={`inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium rounded-lg transition-colors whitespace-nowrap ${
@@ -156,7 +167,19 @@ export const Header: React.FC<HeaderProps> = ({
             })}
           </div>
 
-          <div className="pt-3 border-t border-slate-800 grid grid-cols-2 gap-2">
+          <div className="pt-2">
+            <a
+              href="https://wa.me/917004223942?text=Hello%20RELATION%20INDIA%2C%20I%20would%20like%20to%20inquire%20about%20your%20healthcare%20products."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 w-full py-2.5 px-3 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm"
+            >
+              <MessageCircle className="w-4 h-4" />
+              <span>WhatsApp Chat: +91 7004223942</span>
+            </a>
+          </div>
+
+          <div className="pt-2 border-t border-slate-800 grid grid-cols-2 gap-2">
             <button
               onClick={() => handleNavClick('employee-login')}
               className={`flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-xs font-medium border ${

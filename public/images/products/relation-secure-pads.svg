@@ -212,20 +212,20 @@
       <path d="M 52 50 Q 70 45 55 30 Q 45 40 48 50 Z" fill="#f1f5f9" stroke="#d946ef" stroke-width="1"/>
     </g>
 
-    <!-- XL 280mm & Fresh Fragrance Badge -->
+    <!-- XXL 280mm & Fresh Fragrance Badge -->
     <g transform="translate(12, 60)">
-      <rect x="0" y="0" width="70" height="28" rx="4" fill="#3b0764"/>
-      <text x="35" y="14" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="12" fill="#ffffff">
-        XL <tspan font-size="8">280mm</tspan>
+      <rect x="0" y="0" width="76" height="28" rx="4" fill="#3b0764"/>
+      <text x="38" y="14" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="11" fill="#ffffff">
+        XXL <tspan font-size="8">280mm</tspan>
       </text>
-      <text x="35" y="24" text-anchor="middle" font-family="'Arial', sans-serif" font-size="7" fill="#e9d5ff">
+      <text x="38" y="24" text-anchor="middle" font-family="'Arial', sans-serif" font-size="7" fill="#e9d5ff">
         Fresh Fragrance
       </text>
     </g>
 
     <!-- Price and Logo -->
-    <text x="240" y="125" font-family="'Arial Black', sans-serif" font-size="11" fill="#1f2937">
-      MRP-60.49
+    <text x="240" y="125" font-family="'Arial Black', sans-serif" font-size="12" fill="#1f2937">
+      MRP-45.00
     </text>
     <circle cx="315" cy="120" r="10" fill="#831843" stroke="#f472b6" stroke-width="1.5"/>
     <text x="315" y="123" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="7" fill="#ffffff">
